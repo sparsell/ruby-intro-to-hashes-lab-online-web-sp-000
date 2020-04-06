@@ -22,16 +22,6 @@ def monopoly_with_second_tier
 		}
 end
 
-epic_tragedy = {
-   :montague => {
-      :patriarch => {name: "Lord Montague", age: "53"},
-      :matriarch => {name: "Lady Montague", age: "54"},
-      :hero => {name: "Romeo", age: "15", status: "alive"},
-      :hero_friends => [
-         {name: "Benvolio", age: "17", attitude: "worried"},
-         {name: "Steven", age: "30", attitude: "confused"}
-      ]
-   },
 
 def monopoly_with_third_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
